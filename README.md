@@ -1,2 +1,2 @@
-# gancster
+gancster
 my first repository
