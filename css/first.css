@@ -1,20 +1,34 @@
-#table1 tr:nth-child(1)>td:nth-child(-n+2){
-	background-color:blue;
+#wraper{
+	width:1000px;
+	margin: 0 auto;
+	background: linear-gradient(45deg,red,white,green);
 }
-#table1 tr:nth-child(2)>td:last-child{
-	background-color:yellow;
+#logo>img, div{
+	border:1px solid red;
 }
-#table1 tr:nth-child(3)>td:nth-child(odd){
-	background-color:#f73ff6;
+#logo>img{
+	margin-left:30px;
 }
-#table1 tr:last-child{
-	background-color:gray;
+#menu, #footer{
+	padding:20px 0px;
+	background-color:white;
+}
+#top, #center, #footer>p:last-child, #menu, #footer{
+	text-align: center;
 }
 
-#table2 tr:nth-child(odd)>td:nth-child(even){
-	background-color:black;
+#footer>p:first-child{
+	text-align:right;
+}
+#center>div{
+	display: inline-block;
+	border:0px;
+	
+}
+#center div>p{
+	text-align:left;
 }
 
-#table3 tr:nth-child(even)>td:nth-child(even){
-	background-color:red;
+#second{
+	margin-left:90px;
 }
